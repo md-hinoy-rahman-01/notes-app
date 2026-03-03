@@ -94,12 +94,16 @@ body {
 }
 /* Note card */
 .note-card {
-  width: 500px;
-  background: rgb(68, 40, 40);
+  
+  background: rgb(93, 62, 62);
   padding: 15px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
+
 
 .note-actions {
   display: flex;
